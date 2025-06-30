@@ -1,0 +1,42 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y bases de datos
+*.log
+*.sqlite3
+
+# Archivos de pruebas
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Entornos y dependencias
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Archivos específicos de PyCharm (JetBrains)
+#.idea/
+*.iml
